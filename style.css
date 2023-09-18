@@ -1,0 +1,136 @@
+a{
+    text-decoration: none;
+}
+
+.lista li{
+    color: rgb(242, 242, 243);
+    text-shadow: 5px 5px 5px #000;
+    font-size: 30px;
+    list-style: none;
+    margin-right: 20px;
+    -webkit-font-smoothing: antialiased;
+    -mzo-osk-font-smoothing: grayscale;
+    margin-top: 0;
+}
+
+body{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+
+.Menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Menu img{
+    margin-top: 20px;
+    width: 250px;
+}
+
+.lista{
+    margin-top:  -120px;
+    margin-right: 0px;
+    display: flex;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 60px;
+    color: #fbf7f7;
+    margin: 0;
+}
+
+h2{
+    font-size: 25px;
+    color: #f6f2f2;
+    text-shadow: #f0000f;
+    margin-bottom: 85px;
+    border-color: #f0000f;   
+}
+
+h3{
+    font-size: 40px;
+    border-radius: 15px;
+    color: #010101;
+    text-align: center;
+}
+
+header{
+    background: url(/images/b9a21791534383.5e341720a5140.jpg);
+    opacity: 100%;
+    background-size: cover;
+}
+
+.contenedor{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+/* Sobre Mi */
+
+
+
+h4{
+    font-size: 40px;
+    color: rgb(70,177,253);
+}
+
+#sobre-mi{
+    justify-content: center;
+    margin: 25px 25px 25px;
+  
+}
+
+.contenedor-nosotros-parrafo{
+    
+    border-radius: 6px;
+    height: 410px;
+    background-color:rgb(13,37,63);
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(246, 246, 244);
+}
+
+/* Aptitudes */
+.contenedor-aptitudes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 40%;
+}   
+
+#aptitudes p{
+    font-size: 30px;
+    text-align: center;
+}
+
+.tech{
+    width: 20%;
+    padding: 40px 38px 50px 38px;
+    border-radius:  10px;
+    margin-bottom:  40px;
+}
+
+.tech img{
+    float: right;
+    height: 150px;
+    justify-content: space-between;
+}
+
+/* Mis Proyectos */
+
+
+
+.listacurso{
+font-size: 30px;
+list-style:disc;
+margin-left: 180px;
+}
